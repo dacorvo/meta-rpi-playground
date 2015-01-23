@@ -7,4 +7,7 @@ inherit packagegroup
 # Warning: omxplayer requires libav, which has a commercial license
 RDEPENDS_${PN} = "\
     omxplayer \
+    weston \
+    weston-init \
+    weston-examples \
 "
